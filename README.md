@@ -1,6 +1,8 @@
 # Developer Portfolio
+Live site: https://coding-cryptid.github.io/dev-portfolio/
 
 ## About This Project:
+I built this portfolio site using HTML/CSS. I wanted it to have a clean, modern look and feel. By using simple colors and glass styles on the cards and navbar, I was able to achieve this look.
 
 ## Tech Stack:
 ![MacOS](https://img.shields.io/badge/mac%20os-000000?style=flat&logo=apple&logoColor=white)
