@@ -13,6 +13,8 @@ body {
     background-image: url('img/background.jpg');
     background-position: 100%;
     background-size: cover;
+    background-color: rgb(162, 209, 209);
+    background-blend-mode: overlay;
 }
 
 nav {
@@ -38,15 +40,15 @@ nav {
         border: 1px solid transparent;
     }
     a:hover {
-        color: darkslateblue;
-        border: 1px solid darkslateblue;
+        color: darkslategrey;
+        border: 1px solid darkslategrey;
         padding: 4px 8px;
         border-radius: 6px;
     }
 }
 
 .hero {
-    background-color: rgb(208, 209, 218);
+    background-color: whitesmoke;
     padding: 60px;
     #welcome {
         font-size: 2rem;
@@ -54,7 +56,7 @@ nav {
     #description {
         padding: 20px 0px 35px 0px;
         max-width: 600px;
-        color: rgb(76, 76, 76);
+        color: darkslategrey;
     }
     #placeholder {
         text-align: center;
@@ -92,7 +94,7 @@ nav {
     overflow: hidden;
     border-radius: 10px;
     align-items: center;
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgba(82, 82, 82, 0.056);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.127);
     img {
@@ -106,7 +108,7 @@ nav {
     }
     p {
         padding: 0px 20px;
-        color: rgb(76, 76, 76);
+        color: black;
     }
 }
 
@@ -116,22 +118,22 @@ button {
     font-size: 15px;
     margin: 20px 0;
     border-radius: 6px;
-    border: 1px solid darkslateblue;
-    color: darkslateblue;
+    border: 1px solid darkslategrey;
+    color: darkslategrey;
     background-color: transparent;
 }
 
 button:hover {
-    background-color: darkslateblue;
-    color: white;
-    border: 1px solid darkslateblue;
+    background-color: darkslategray;
+    color: whitesmoke;
+    border: 1px solid darkslategray;
     border-radius: 6px;
 }
 
 footer {
     align-items: center;
-    padding: 16px 0;
-    background-color: rgb(208, 209, 218);
+    padding: 26px 0;
+    background-color: whitesmoke;
     .footer-links {
         display: flex;
         list-style: none;
@@ -147,8 +149,8 @@ footer {
         border: 1px solid transparent;
     }
     a:hover {
-        color: darkslateblue;
-        border: 1px solid darkslateblue;
+        color: darkslategray;
+        border: 1px solid darkslategray;
         padding: 4px 8px;
         border-radius: 6px;
     }
