@@ -114,10 +114,11 @@ nav {
     }
 }
 
-button {
+.button {
     width: 115px;
     padding: 7px 0;
     font-size: 15px;
+    text-decoration: none;
     margin: 20px 0;
     border-radius: 6px;
     border: 1px solid darkslategrey;
@@ -125,7 +126,7 @@ button {
     background-color: transparent;
 }
 
-button:hover {
+.button:hover {
     background-color: darkslategray;
     color: whitesmoke;
     border: 1px solid darkslategray;
