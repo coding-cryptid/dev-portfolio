@@ -50,8 +50,12 @@ nav {
 }
 
 .hero {
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 221, 221);
     padding: 86px 75px 90px 75px;
+    text-align: center;
+    justify-content: center;
     #welcome {
         font-size: 3rem;
         h2 {
@@ -62,12 +66,12 @@ nav {
         }
     }
     #description {
-        padding: 30px 0px 30px 0px;
-        max-width: 750px;
-        font-size: 21px;
+        padding: 90px 0px 30px 0px;
+        font-size: 26px;
+        width: 60%;
+        margin: 0 auto;
     }
     #placeholder {
-        text-align: center;
         font-size: 8rem;
         padding: 60px;
     }
