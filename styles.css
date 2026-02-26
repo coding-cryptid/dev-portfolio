@@ -13,7 +13,7 @@ body {
     background-image: url('img/background.jpg');
     background-position: 100%;
     background-size: cover;
-    background-color: rgb(162, 209, 209);
+    background-color: rgb(209, 226, 226);
     background-blend-mode: overlay;
 }
 
@@ -57,6 +57,7 @@ nav {
         padding: 20px 0px 35px 0px;
         max-width: 600px;
         color: darkslategrey;
+        font-size: 18px;
     }
     #placeholder {
         text-align: center;
