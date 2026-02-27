@@ -180,6 +180,7 @@ footer {
             gap: 5px;
         }
     }
+
     .hero {
         padding: 30px 20px;
         
@@ -200,5 +201,35 @@ footer {
             padding: 10px;
             font-size: 4rem;
         }
+    }
+
+    .projects {
+        padding: 15px;
+        h2 {
+            font-size: 1.3rem;
+            padding: 15px 0 30px 0;
+        }
+    }
+
+    #cards-container {
+        padding: 0px;
+    }
+
+    .card {
+        height: 370px;
+        width: 250px;
+        h3 {
+            padding: 10px;
+            font-size: 16px;
+        }
+        p {
+            padding: 0px 20px;
+            font-size: 12px;
+        }
+    }
+    .button {
+        width: 90px;
+        padding: 7px 0;
+        font-size: 12px;
     }
 }
