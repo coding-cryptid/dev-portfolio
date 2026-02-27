@@ -173,7 +173,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     nav {
         font-size: 12px;
         .nav-links {
